@@ -1,6 +1,6 @@
 {
   
-  "name": "first-app",
+  "name": "customer",
   
   "version": "1.0.0",
   
@@ -13,6 +13,7 @@
     
   "start": "nodemon --inspect src/index.js",
   
+  "build": "build",
     
   "listen": "node-sass --watch src/resource/scss/ -0 src/public/css/",
   
@@ -39,7 +40,6 @@
   },
   
   "devDependencies": {
-  
     
   "morgan": "^1.10.0",
   
